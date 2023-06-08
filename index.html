@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rgb game</title>
+</head>
+<body>
+
+    <header>
+        
+        <h2 style="font-size: 12px;">Scroll the page for the clues :)</h2>
+
+        <h1 id="score">Score: 0</h1>
+        <box>
+            <h1 id="rgb-text">What Color is this -> RGB(?,?,?)</h1>
+        </box>
+        <box>
+            <button id="buttonStart" onClick="start()">Flush</button>
+        </box>
+
+
+        
+        
+    
+
+    </header>
+    <box>
+        <section>
+            <div id="div1" onClick="verifyWinner(div1)">?</div>
+            <div id="div2" onClick="verifyWinner(div2)">?</div>
+            <div id="div3" onClick="verifyWinner(div3)">?</div>
+            <div id="div4" onClick="verifyWinner(div4)">?</div>
+            <div id="div5" onClick="verifyWinner(div5)">?</div>
+            <div id="div6" onClick="verifyWinner(div6)">?</div>
+    
+        </section>
+    </box>
+
+
+    <box2>
+        <h2>Remember: </h2>
+        <ul>
+            <li>Red: rgb(255,0,0) <minibox style="background-color: red;"></minibox></li>
+            <li>Green: rgb(0,255,0) <minibox style="background-color: green;"></minibox></li>
+            <li>Blue: rgb(0,0,255) <minibox style="background-color: blue;"></minibox></li>
+            <li>Black: rgb(0,0,0) <minibox style="background-color: black;"></minibox></li>
+            <li>White: rgb(255,255,255) <minibox style="background-color: white;"></minibox></li>
+        </ul>
+    </box2>
+
+    <box2>
+        <p><a target="_blank" style="text-decoration: none;" href="https://github.com/alphachief13">@alphachief13</a> -> This site may be not optimized for all devices, standard resolution: 1366x768</p>
+    </box2>
+        
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
