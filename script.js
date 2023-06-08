@@ -23,7 +23,6 @@ function randomRgb(){
 
 function randomDiv(){
     let r = Math.floor(Math.random() * 6);
-    console.log(divs[r]);
     return divs[r]; 
 }
 
@@ -51,7 +50,6 @@ function start(){
             divs[i].style.backgroundColor = `rgb(${randomRgb()}, ${randomRgb()}, ${randomRgb()})`
         }
     }
-
 }
 
 function verifyWinner(element){
